@@ -9,7 +9,7 @@ const {OrdersModel} = require("./model/OrdersModel");
 
 const PORT=process.env.PORT || 3002;
 //const url= process.env.MONGO_URL;
-const url=`mongodb+srv://satvikgupta212003:Tj2JImc7r90PnuE4@marketmindscluster.apu2h.mongodb.net/?retryWrites=true&w=majority&appName=MarketMindsCluster`;
+const url=`mongodb+srv://satvikgupta2120032:POdR1IyIeCnNNjkS@marketmindscluster.e4ulm.mongodb.net/?retryWrites=true&w=majority&appName=MarketMindsCluster`;
 const app=express();
 mongoose.connect(url);
 
